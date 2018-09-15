@@ -1,6 +1,6 @@
 {
     "default-subview":"V_HOME",
-    "title":"주말은 중남미 여행 MainApp 카탈로그",
+    "title":"연재 모음 앱 MainApp 카탈로그",
     "version":"1.0",
     "uses-database":"yes",
     "database-version":"2.0",
@@ -28,7 +28,7 @@
         "auxiliary":[
             {
                 "id":"S_BOOK",
-                "title":"주말은\n중 남 미 여 행",
+                "title":"주말은\n중 남 미 여 행 기",
                 "author":"pepsi81",
                 "userpic-url":"https://steemitimages.com/u/pepsi81/avatar",
                 "title-pattern":"\\[[^\\]]*주말[^\\]]*중남미[^\\]]*\\]\\s*(\\d\\.)?(.+)",
