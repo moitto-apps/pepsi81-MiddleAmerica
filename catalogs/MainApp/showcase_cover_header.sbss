@@ -1,0 +1,7 @@
+import themes.sbss
+
+/header: page-background-color=$WHITE_COLOR
+/header/title: display=block, position=abs, gravity=top, y=1sbh+50dp, margin="0 0.1pw", \
+        font-family=$SERIF_LIGHT, font-size=2.2, text-color=$BLACK_COLOR, \
+        padding="0 0.5em 1.2em 0.5em", paragraph-spacing=0.2em, \
+        border-left-width=4dp, border-left-color=$THEME_COLOR_103

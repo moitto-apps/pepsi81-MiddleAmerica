@@ -1,0 +1,15 @@
+import themes.sbss
+
+#label_loading: display=none, height=20dp, \
+        position=abs, gravity=top, y=1sbh+220dp+15dp+150dp/2-20dp/2, \
+        font-family=$SANSSERIF_MEDIUM, text-color=$WHITE_COLOR
+
+if $SCREEN_WIDTH > "5"
+    #label_loading: font-size=1.2
+else
+    #label_loading: font-size=1.1
+end
+
+if $LOADING == "yes"
+    #label_loading: display=object
+end

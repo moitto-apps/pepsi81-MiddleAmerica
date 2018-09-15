@@ -1,0 +1,12 @@
+import themes.sbss
+
+#section_userpic: width=44dp, height=44dp, margin="20dp 0 10dp 0"
+#blank_userpic.mask: color=$THEME_COLOR_01, width=44dp, height=44dp, position=abs, gravity=center, \
+            content-border-radius=44dp/2
+#btn_userpic: width=42dp, height=42dp, scale-mode=fill, \
+            position=abs, gravity=center, content-border-radius=42dp/2
+
+/toolbar/author: display=block, position=abs, gravity=bottom, y=-(40dp+1eb), \
+        font-family=$SANSSERIF_BOLD, font-size=1.0, \
+        text-color=$WHITE_COLOR, text-align=center
+/toolbar/userpic: display=none

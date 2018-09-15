@@ -1,0 +1,5 @@
+=begin empty
+
+=object label: text="최근 글을 검색하고 있습니다.", style=label_loading
+
+=end empty

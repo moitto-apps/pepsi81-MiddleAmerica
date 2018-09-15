@@ -1,0 +1,6 @@
+=begin catalog
+
+=object image: script-when-resume=on_resume, style=img_banner
+=object label: id=label.new, text="NEW", style=label_new
+
+=end catalog

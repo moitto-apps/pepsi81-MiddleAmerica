@@ -1,0 +1,13 @@
+=begin toolbar
+
+=begin author
+=object section: section=userpic, style=section_userpic
+by @${author}
+=end author
+
+=begin userpic: id=userpic
+=object blank: style=blank_userpic.mask
+=object button: script=show_author, image-url="${userpic-url}", reuse-id="${userpic-url}", style=btn_userpic
+=end userpic
+
+=end toolbar

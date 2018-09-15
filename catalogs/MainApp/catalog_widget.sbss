@@ -1,0 +1,10 @@
+import themes.sbss
+
+#img_banner: filename="banner.jpg", scale-mode=fill, \
+        width=1pw, height=1ph, position=abs, gravity=center
+#label_new: hidden=yes, width=60dp, height=24dp, position=abs, gravity=center, \
+        font-family=$SANSSERIF_BOLD, font-size=1.0, \
+        text-align=center, text-color=$BLACK_COLOR, \
+        content-border-radius=24dp/2, content-background-color=$THEME_COLOR_03
+
+/catalog: script-when-loaded=on_loaded

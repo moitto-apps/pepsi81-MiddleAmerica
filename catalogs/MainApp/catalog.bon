@@ -1,0 +1,46 @@
+{
+    "default-subview":"V_HOME",
+    "title":"주말은 중남미 여행 MainApp 카탈로그",
+    "version":"1.0",
+    "uses-database":"yes",
+    "database-version":"2.0",
+    "subviews":{
+    	"V_HOME":{
+    		"catalog":"MainApp",
+    		"subcatalog":"home",
+    		"type":"store",
+            "auxiliary":"S_BOOK"
+    	}
+	},
+	"subcatalogs":{
+		"home":{
+    		"controller":"StoreView",
+	    	"hides-navibar":"yes",
+    		"statusbar-style":"Default",
+    		"title":"홈"
+		},
+        "widget":{
+            "controller":"StoreView",
+            "auxiliary":"S_BOOK"
+        }
+	},
+    "showcases":{
+        "auxiliary":[
+            {
+                "id":"S_BOOK",
+                "title":"주말은\n중 남 미 여 행",
+                "author":"pepsi81",
+                "userpic-url":"https://steemitimages.com/u/pepsi81/avatar",
+                "title-pattern":"\\[[^\\]]*주말[^\\]]*중남미[^\\]]*\\]\\s*(\\d\\.)?(.+)",
+                "title-pattern-group":"2"
+            },
+            {
+                "id":"S_BLOG",
+                "navibar-title":"전체 목록",
+                "has-own-title":"yes",
+                "has-own-sbml":"yes",
+                "auxiliary":"S_BOOK"
+            }
+        ]
+    }
+}
