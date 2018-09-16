@@ -4,7 +4,7 @@ var contents = require("contents");
 var users    = require("users");
 var api      = require("api");
 
-function feed_cover(keyword, location, length, sortkey, sortorder, handler) {
+function feed_home(keyword, location, length, sortkey, sortorder, handler) {
     var username = $data["subview.author"];
     var title_filter = [ 
         new RegExp($data["subview.title-pattern"]), parseInt($data["subview.title-pattern-group"]) 
@@ -16,7 +16,7 @@ function feed_cover(keyword, location, length, sortkey, sortorder, handler) {
         discussions.forEach(function(discussion) {
             var content = contents.create(discussion);
             var datum = {
-                "id":"S_BLOG_" + content.data["author"] + "_" + content.data["permlink"],
+                "id":"S_HOME_" + content.data["author"] + "_" + content.data["permlink"],
                 "author":content.data["author"],
                 "permlink":content.data["permlink"],
                 "title":content.data["title"], 

@@ -2,10 +2,10 @@
 
 =object image: filename=background.jpg, style=img_background
 
-=object showcase: alternate-name=cover, data-script=feed_cover, \
+=object showcase: alternate-name=home, data-script=feed_home, \
         has-header=yes, header-display-unit="S_BOOK", \
         has-toolbar=yes, toolbar-display-unit="S_BOOK", \
         selectable=yes, script-when-selected=open_discussion, \
-        style=showcase_cover
+        style=showcase_home
 
 =end catalog
