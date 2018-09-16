@@ -28,7 +28,8 @@
         "auxiliary":[
             {
                 "id":"S_BOOK",
-                "title":"주말은\n중 남 미 여 행 기",
+                "title":"주말은 중남미 여행기",
+                "display-title":"주말은\n중 남 미 여 행 기",
                 "author":"pepsi81",
                 "userpic-url":"https://steemitimages.com/u/pepsi81/avatar",
                 "title-pattern":"\\[[^\\]]*주말[^\\]]*중남미[^\\]]*\\]\\s*(\\d\\.)?(.+)",
@@ -36,7 +37,6 @@
             },
             {
                 "id":"S_BLOG",
-                "navibar-title":"전체 목록",
                 "has-own-title":"yes",
                 "has-own-sbml":"yes",
                 "auxiliary":"S_BOOK"
