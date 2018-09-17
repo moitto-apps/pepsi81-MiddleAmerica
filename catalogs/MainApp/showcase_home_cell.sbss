@@ -16,7 +16,8 @@ import themes.sbss
 
 /cell/content: display=none, padding="0.5em 1em", text-color=$WHITE_COLOR
 /cell/content/heading: margin-bottom=10dp, font-family=$SANSSERIF_MEDIUM
-/cell/content/title: font-family=$SERIF_MEDIUM, text-color=$WHITE_COLOR, line-break-mode=word-wrap
+/cell/content/title: font-family=$SERIF_MEDIUM, text-color=$WHITE_COLOR, \
+        text-align=left, line-break-mode=word-wrap
 /cell/content/meta: display=block, position=abs, gravity=bottom-left, x=15dp, y=-25dp
 
 if $SCREEN_WIDTH > "5"
